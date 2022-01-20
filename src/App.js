@@ -1,14 +1,16 @@
-import Hero from "./components/Hero";
-import Navigation from "./components/nav";
-import { Global } from "./styles/Global";
+import { motion } from "framer-motion";
 
 const App = () => {
   return (
     <>
-      <Global />
-      <div className="App">
-        <Navigation />
-        <Hero />
+      <div className="home-page">
+        <section className="landing-left-section">
+          <div className="text">
+            <h1>hi</h1>
+            <h1>Im Juan</h1>
+            <h1>Webdeveloper</h1>
+          </div>
+        </section>
       </div>
     </>
   );

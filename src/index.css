@@ -1,0 +1,65 @@
+.App {
+    min-height: 100vh;
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    background: #14213D;
+    color: #E5E5E5;
+    overflow: hidden;
+  }
+  
+  .home-page {
+    overflow: hidden;
+  }
+  
+  .home-page {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    margin-top: 1rem;
+    padding: 1rem;
+    position: relative;
+    height: 90vh;
+  }
+  
+  .home-page .landing-left-section {
+    min-height: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    z-index: 5;
+  }
+  
+  .home-page .landing-left-section .text {
+    color: black;
+  }
+  
+  .home-page .landing-left-section .text h1, .home-page .landing-left-section .text p {
+    letter-spacing: 3px;
+  }
+  
+  .home-page .landing-left-section .text h1, .home-page .landing-left-section .text  {
+    font-size: 2.5rem;
+  }
+  
+  .home-page .landing-left-section .text p {
+    margin-top: 1rem;
+    font-size: .9rem;
+  }
+  
+  .home-page .landing-left-section .text span {
+    position: relative;
+    display: inline-block;
+    cursor: default;
+  }
